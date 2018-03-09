@@ -1,0 +1,28 @@
+{
+  "name": "our-ide",
+  "main": "./lib/our-ide",
+  "version": "0.1.0",
+  "description": "Our Project Ide Setting",
+  "keywords": [],
+  "repository": "https://bitbucket.org/m0kimura/our-ide",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "consumedServices": {
+    "tablr-models": {
+      "versions": {
+        "1.0.0": "consumeTablrModelsServiceV1"
+      }
+    }
+  },
+  "dependencies": {
+    "ansi-to-html": "^0.6.3",
+    "atom-space-pen-views": "^2.2.0",
+    "csv": "^1.1.1",
+    "event-kit": "^2.3.0",
+    "jquery": "^3.2.1",
+    "ke-procom": "file:///home/kimura/github/ke-procom",
+    "space-pen": "^5.1.2"
+  }
+}
